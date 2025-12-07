@@ -2,18 +2,18 @@ body{
     padding: 0;
     margin: 0;
 }
-.row{
-    width: 101%;
-}
-.col-md-12{
+/* .col-md-12{
     background: fixed rgb(10, 0, 27);
-}
+    padding-bottom: 6%;
+} */
 .card{
-    padding-left: 4%;
+    padding-left: 3%;
+    background: fixed rgb(10, 0, 27);
+    padding-bottom: 6%;
 }
 .card h1{
     color: #fff;
-    margin: 10% 0 1% 0;
+    margin: -22% 0 0 0;
     font-size: 9rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
@@ -22,26 +22,25 @@ body{
     color: #fff;
     font-size: 1.1rem;
 }
-.col-md-4{
-    margin: -15% 0 3% 57%;
+.card-image{
+    margin: 12% 12% 0 0;
+    text-align: right;
 }
 @media only screen and (max-width:767px){
-
-.row{
-    width: 105.4%;
-    margin: 0;
+.card{
     padding: 0;
+    margin: 0;
 }
-.cv-image{
-    margin-top: 17%;
-    margin-left: -55%;
+.card-image{
+   margin: 7% 0 25% -4%;
+   width: 90%;
 }
 .card h1{
     font-size: 3rem;
     text-align: center;
 }
 .card p{
-    padding-top: 1.5rem;
-    font-size: 1.1rem;
+    padding: 0.5rem 0 0 0.2rem;
+    font-size: 1rem;
 }
 }
